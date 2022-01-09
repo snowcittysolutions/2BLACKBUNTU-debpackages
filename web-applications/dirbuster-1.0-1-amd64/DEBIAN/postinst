@@ -1,0 +1,2 @@
+mkdir -p /opt/blackbuntu/web-applications/
+chmod +x /opt/blackbuntu/web-applications/dirbuster/dirbuster.jar

@@ -1,0 +1,13 @@
+mkdir -p /opt/blackbuntu/cracking/
+chmod +x /opt/blackbuntu/cracking/rainbowcrack/rcrack
+chmod +x /opt/blackbuntu/cracking/rainbowcrack/rt2rtc
+chmod +x /opt/blackbuntu/cracking/rainbowcrack/rtc2rt
+chmod +x /opt/blackbuntu/cracking/rainbowcrack/rtgen
+chmod +x /opt/blackbuntu/cracking/rainbowcrack/rtmerge
+chmod +x /opt/blackbuntu/cracking/rainbowcrack/rtsort
+ln -s /opt/blackbuntu/cracking/rainbowcrack/rcrack /usr/bin/rcrack
+ln -s /opt/blackbuntu/cracking/rainbowcrack/rt2rtc /usr/bin/rt2rtc
+ln -s /opt/blackbuntu/cracking/rainbowcrack/rtc2rt /usr/bin/rtc2rt
+ln -s /opt/blackbuntu/cracking/rainbowcrack/rtgen /usr/bin/rtgen
+ln -s /opt/blackbuntu/cracking/rainbowcrack/rtmerge /usr/bin/rtmerge
+ln -s /opt/blackbuntu/cracking/rainbowcrack/rtsort /usr/bin/rtsort

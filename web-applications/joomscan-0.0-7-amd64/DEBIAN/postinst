@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/web-applications/
+chmod +x /opt/blackbuntu/web-applications/joomscan/joomscan.pl
+ln -s /opt/blackbuntu/web-applications/joomscan/joomscan.pl /usr/bin/joomscan

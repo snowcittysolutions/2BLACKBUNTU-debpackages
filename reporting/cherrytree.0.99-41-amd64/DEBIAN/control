@@ -1,0 +1,6 @@
+Package: cherrytree
+Version: 0.99.41
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: A hierarchical note taking application, featuring rich text and syntax highlighting, storing data in a single xml or sqlite file.

@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/wireless/
+chmod +x /opt/blackbuntu/wireless/wps-breaker/wps-breaker.sh
+ln -s /opt/blackbuntu/wireless/wps-breaker/wps-breaker.sh /usr/bin/wps-breaker

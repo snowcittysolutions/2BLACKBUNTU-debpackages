@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/utilities/
+chmod +x /opt/blackbuntu/utilities/webtrace/webtrace.rb
+ln -s /opt/blackbuntu/utilities/webtrace/webtrace.rb /usr/bin/webtrace

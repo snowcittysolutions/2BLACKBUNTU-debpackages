@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/forensics/
+chmod +x /opt/blackbuntu/forensics/ddrescue/compile.sh
+ln -s /opt/blackbuntu/forensics/ddrescue/compile.sh /usr/bin/ddrescue

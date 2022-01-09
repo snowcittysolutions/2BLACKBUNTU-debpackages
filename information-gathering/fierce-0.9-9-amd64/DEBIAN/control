@@ -1,0 +1,6 @@
+Package: fierce
+Version: 0.9.9
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: Fierce is a semi-lightweight scanner that helps locate non-contiguous IP space and hostnames against specified domains.

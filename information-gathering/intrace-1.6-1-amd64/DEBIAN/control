@@ -1,0 +1,6 @@
+Package: intrace
+Version: 1.6.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: InTrace is a traceroute-like application that enables users to enumerate IP hops exploiting existing TCP connections, both initiated from local network (local system) or from remote hosts.

@@ -1,0 +1,6 @@
+Package: dotdotpwn
+Version: 3.0.2
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: DotDotPwn is a very flexible intelligent fuzzer to discover traversal directory vulnerabilities in software such as HTTP/FTP/TFTP servers, Web platforms such as CMSs, ERPs, Blogs, etc.

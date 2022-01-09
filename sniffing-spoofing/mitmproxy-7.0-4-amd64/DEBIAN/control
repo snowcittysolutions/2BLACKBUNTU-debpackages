@@ -1,0 +1,6 @@
+Package: mitmproxy
+Version: 7.0.4
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: Mitmproxy is your swiss-army knife for debugging, testing, privacy measurements, and penetration testing.

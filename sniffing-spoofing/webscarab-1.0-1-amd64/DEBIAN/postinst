@@ -1,0 +1,2 @@
+mkdir -p /opt/blackbuntu/sniffing-spoofing/
+chmod +x /opt/blackbuntu/sniffing-spoofing/webscarab/webscarab.jar

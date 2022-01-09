@@ -1,0 +1,72 @@
+03:20:21,848  INFO bl:54 [] Using mtdir '/home/neoslab/.magictree'
+03:20:21,984 DEBUG bl:492 [] Loading settings from '/home/neoslab/.magictree/settings.properties'
+03:20:21,985  INFO bl:498 [] Failed to load settings: file '/home/neoslab/.magictree/settings.properties' not found
+03:20:25,157 DEBUG bl:512 [] Saving settings to '/home/neoslab/.magictree/settings.properties'
+03:20:25,184 DEBUG bl:516 [] Saved settings to file '/home/neoslab/.magictree/settings.properties'
+03:20:25,190  INFO com.gremwell.mt.application.MtApplication:160 [] Initializing MagicTree Version 1.3, rev 1814
+03:20:25,320 DEBUG fx:39 [] IDTracker initialized, nextId set to 0
+03:20:25,320 DEBUG fx:51 [] assignNewId() called for object magictree. oldId is 0
+03:20:25,321 DEBUG fx:53 [] assignNewId(): object magictreeassigned id 0
+03:20:25,321 DEBUG fx:55 [] assignNewId(): idMap maps oldId 0 to object null
+03:20:25,321 DEBUG fx:56 [] assignNewId(): removing mapping for id 0
+03:20:25,321 DEBUG fx:58 [] assignNewId(): telling tree controller to update resources for oldId 0
+03:20:25,321 DEBUG fx:60 [] assignNewId(): firing idForObjectChanged(magictree, 0, 0)
+03:20:25,321 DEBUG fx:63 [] assignNewId(): adding mapping for id 0 object magictree
+03:20:25,322 DEBUG fx:66 [] assignNewId(): nextId is now 1
+03:20:25,323 DEBUG eN:70 [] Acquired lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid] on file '/home/neoslab/.magictree/tmp/magictree1025685272895429509/lock'
+03:20:25,333 DEBUG ba:285 [] Autosave timer set to 600000ms
+03:20:27,009 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,009 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,009 DEBUG com.gremwell.history.History:86 [] Constructor: setting history key to "XPathName"
+03:20:27,010 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,010 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,011 DEBUG com.gremwell.history.History:86 [] Constructor: setting history key to "XPathExpression"
+03:20:27,019 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,025 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,028 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,029 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,029 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,030 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,030 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,032 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,032 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,032 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,033 DEBUG com.gremwell.history.HistoryComboBoxModel:70 [] Setting selected item to ""
+03:20:27,034 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,034 DEBUG com.gremwell.history.HistoryComboBoxEditor:50 [] Setting the selected combobox item to ""
+03:20:27,034 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,034 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,035 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,035 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,035 DEBUG com.gremwell.history.HistoryComboBoxModel:70 [] Setting selected item to ""
+03:20:27,036 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,036 DEBUG com.gremwell.history.HistoryComboBoxEditor:50 [] Setting the selected combobox item to ""
+03:20:27,036 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,036 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,036 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,036 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is ""
+03:20:27,043 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,043 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,044 DEBUG com.gremwell.history.History:86 [] Constructor: setting history key to "XPathName"
+03:20:27,044 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,044 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,044 DEBUG com.gremwell.history.History:86 [] Constructor: setting history key to "XPathExpression"
+03:20:27,049 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,049 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,050 DEBUG com.gremwell.history.History:86 [] Constructor: setting history key to "XPathName"
+03:20:27,050 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,050 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,050 DEBUG com.gremwell.history.History:86 [] Constructor: setting history key to "XPathExpression"
+03:20:27,075 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,075 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,076 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,076 DEBUG com.gremwell.history.History:57 [] Constructor: setting history key to "Default"
+03:20:27,077 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,083 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,083 DEBUG com.gremwell.history.HistoryComboBoxModel:65 [] Selected item is "null"
+03:20:27,296 DEBUG au:88 [] Found 0 orphans: []
+03:20:29,805 DEBUG bl:512 [] Saving settings to '/home/neoslab/.magictree/settings.properties'
+03:20:29,809 DEBUG bl:516 [] Saved settings to file '/home/neoslab/.magictree/settings.properties'
+03:20:29,809 DEBUG bl:512 [] Saving settings to '/home/neoslab/.magictree/settings.properties'
+03:20:29,811 DEBUG bl:516 [] Saved settings to file '/home/neoslab/.magictree/settings.properties'
+03:20:29,812 DEBUG eN:93 [] Released lock on file 'sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive invalid]'

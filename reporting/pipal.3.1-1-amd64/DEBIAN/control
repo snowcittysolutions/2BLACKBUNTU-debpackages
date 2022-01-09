@@ -1,0 +1,6 @@
+Package: pipal
+Version: 3.1.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: All this tool does is to give you the stats and the information to help you analyse the passwords. The real work is done by you in interpreting the results.

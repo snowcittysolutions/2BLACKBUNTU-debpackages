@@ -1,0 +1,6 @@
+Package: gpp-decrypt
+Version: 1.0.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: A simple ruby script that will decrypt a given GPP encrypted string.

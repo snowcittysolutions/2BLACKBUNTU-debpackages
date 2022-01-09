@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/wireless/
+chmod +x /opt/blackbuntu/wireless/crackle/compile.sh
+ln -s /opt/blackbuntu/wireless/crackle/compile.sh /usr/bin/crackle

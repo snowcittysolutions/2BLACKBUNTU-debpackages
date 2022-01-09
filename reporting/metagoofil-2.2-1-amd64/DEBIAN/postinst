@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/reporting/
+chmod +x /opt/blackbuntu/reporting/metagoofil/metagoofil.py
+ln -s /opt/blackbuntu/reporting/metagoofil/metagoofil.py /usr/bin/metagoofil

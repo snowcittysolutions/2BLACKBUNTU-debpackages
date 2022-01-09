@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/wireless/
+chmod +x /opt/blackbuntu/wireless/eapmd5pass/compile.sh
+ln -s /opt/blackbuntu/wireless/eapmd5pass/compile.sh /usr/bin/eapmd5pass

@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/utilities/
+chmod +x /opt/blackbuntu/utilities/subbrute/subbrute.py
+ln -s /opt/blackbuntu/utilities/subbrute/subbrute.py /usr/bin/subbrute

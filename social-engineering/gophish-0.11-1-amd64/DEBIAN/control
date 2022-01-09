@@ -1,0 +1,6 @@
+Package: gophish
+Version: 0.11.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: Gophish is an open-source phishing toolkit designed for businesses and penetration testers.

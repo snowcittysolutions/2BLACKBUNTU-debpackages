@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/information-gathering/
+chmod +x /opt/blackbuntu/information-gathering/enumiax/compile.sh
+ln -s /opt/blackbuntu/information-gathering/enumiax/compile.sh /usr/bin/enumiax

@@ -1,0 +1,6 @@
+Package: blackeye
+Version: 1.1.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: A simple tool to create phising page.

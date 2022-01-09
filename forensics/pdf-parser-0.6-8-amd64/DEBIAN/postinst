@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/forensics/
+chmod +x /opt/blackbuntu/forensics/pdf-parser/pdf-parser.py
+ln -s /opt/blackbuntu/forensics/pdf-parser/pdf-parser.py /usr/bin/pdf-parser

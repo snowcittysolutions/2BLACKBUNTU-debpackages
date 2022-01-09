@@ -1,0 +1,6 @@
+Package: hashid
+Version: 3.1.4
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: hashID is a tool written in Python 3.x which supports the identification of over 175 unique hash types using regular expressions.

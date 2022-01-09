@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/sniffing-spoofing/
+chmod +x /opt/blackbuntu/sniffing-spoofing/mitmproxy/mitmproxy
+ln -s /opt/blackbuntu/sniffing-spoofing/mitmproxy/mitmproxy /usr/bin/mitmproxy

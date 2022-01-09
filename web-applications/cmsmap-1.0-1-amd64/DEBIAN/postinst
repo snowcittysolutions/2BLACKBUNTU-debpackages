@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/web-applications/
+chmod +x /opt/blackbuntu/web-applications/cmsmap/cmsmap.py
+ln -s /opt/blackbuntu/web-applications/cmsmap/cmsmap.py /usr/bin/cmsmap

@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/networking/
+chmod +x /opt/blackbuntu/networking/powersploit/powersploit
+ln -s /opt/blackbuntu/networking/powersploit/powersploit /usr/bin/powersploit

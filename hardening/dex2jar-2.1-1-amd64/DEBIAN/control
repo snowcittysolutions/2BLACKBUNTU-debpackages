@@ -1,0 +1,6 @@
+Package: dex2jar
+Version: 2.1.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: Tools to work with android .dex and java .class files.

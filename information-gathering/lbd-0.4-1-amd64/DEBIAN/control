@@ -1,0 +1,6 @@
+Package: lbd
+Version: 0.4.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: Test to see if the target domain (example.com) is using a load balancer.

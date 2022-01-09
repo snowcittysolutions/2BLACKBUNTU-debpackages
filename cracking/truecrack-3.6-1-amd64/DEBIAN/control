@@ -1,0 +1,6 @@
+Package: truecrack
+Version: 3.6.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: TrueCrack is a bruteforce password cracker for TrueCrypt (Copyright) volume.

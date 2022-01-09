@@ -1,0 +1,2 @@
+mkdir -p /opt/blackbuntu/reporting/
+chmod +x /opt/blackbuntu/reporting/cherrytree/cherrytree

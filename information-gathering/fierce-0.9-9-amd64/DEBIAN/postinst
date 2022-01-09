@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/information-gathering/
+chmod +x /opt/blackbuntu/information-gathering/fierce/fierce.pl
+ln -s /opt/blackbuntu/information-gathering/fierce/fierce.pl /usr/bin/fierce

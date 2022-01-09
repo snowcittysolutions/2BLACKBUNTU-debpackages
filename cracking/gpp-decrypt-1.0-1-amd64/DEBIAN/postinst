@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/cracking/
+chmod +x /opt/blackbuntu/cracking/gpp-decrypt/gpp-decrypt.rb
+ln -s /opt/blackbuntu/cracking/gpp-decrypt/gpp-decrypt.rb /usr/bin/gpp-decrypt

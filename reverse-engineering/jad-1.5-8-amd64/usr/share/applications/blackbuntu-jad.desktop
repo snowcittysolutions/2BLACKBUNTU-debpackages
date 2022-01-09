@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Categories=Reverse Engineering;
+Exec=sh -c 'jad; $SHELL'
+Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
+Name=JAD
+Terminal=false
+Type=Application

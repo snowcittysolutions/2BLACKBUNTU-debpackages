@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/cracking/
+chmod +x /opt/blackbuntu/cracking/truecrack/compile.sh
+ln -s /opt/blackbuntu/cracking/truecrack/compile.sh /usr/bin/truecrack

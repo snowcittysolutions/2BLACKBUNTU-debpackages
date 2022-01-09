@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/reporting/
+chmod +x /opt/blackbuntu/reporting/pipal/pipal.rb
+ln -s /opt/blackbuntu/reporting/pipal/pipal.rb /usr/bin/pipal

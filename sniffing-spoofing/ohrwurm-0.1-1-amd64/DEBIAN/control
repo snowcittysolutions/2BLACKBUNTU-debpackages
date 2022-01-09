@@ -1,0 +1,6 @@
+Package: ohrwurm
+Version: 0.1.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: ohrwurm is a small and simple RTP fuzzer that has been successfully tested on a small number of SIP phones.

@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/wireless/
+chmod +x /opt/blackbuntu/wireless/fluxion/fluxion.sh
+ln -s /opt/blackbuntu/wireless/fluxion/fluxion.sh /usr/bin/fluxion

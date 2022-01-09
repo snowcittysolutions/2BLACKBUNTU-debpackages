@@ -1,0 +1,3 @@
+mkdir -p /opt/blackbuntu/cracking/
+chmod +x /opt/blackbuntu/cracking/hashid/hashid.py
+ln -s /opt/blackbuntu/cracking/hashid/hashid.py /usr/bin/hashid

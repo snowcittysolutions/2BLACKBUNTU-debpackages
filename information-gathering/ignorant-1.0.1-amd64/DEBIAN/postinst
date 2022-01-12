@@ -1,0 +1,5 @@
+mkdir -p /opt/blackbuntu/information-gathering/
+cd /opt/blackbuntu/information-gathering/ignorant/
+chmod +x /opt/blackbuntu/information-gathering/ignorant/setup.py
+python3 /opt/blackbuntu/information-gathering/ignorant/setup.py install
+cd /

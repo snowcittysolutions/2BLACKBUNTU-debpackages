@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Categories=Information Gathering;
+Exec=sh -c 'ignorant --help; $SHELL'
+Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
+Name=Ignorant
+Terminal=true
+Type=Application

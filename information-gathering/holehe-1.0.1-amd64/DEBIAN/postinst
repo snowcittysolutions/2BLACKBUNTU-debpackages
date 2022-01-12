@@ -1,5 +1,0 @@
-mkdir -p /opt/blackbuntu/information-gathering/
-cd /opt/blackbuntu/information-gathering/holehe/
-chmod +x /opt/blackbuntu/information-gathering/holehe/setup.py
-python3 /opt/blackbuntu/information-gathering/holehe/setup.py install
-cd /

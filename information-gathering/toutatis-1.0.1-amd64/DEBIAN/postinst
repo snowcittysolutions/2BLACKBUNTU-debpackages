@@ -1,3 +1,5 @@
 mkdir -p /opt/blackbuntu/information-gathering/
-chmod +x /opt/blackbuntu/information-gathering/fierce/fierce.pl
-ln -s /opt/blackbuntu/information-gathering/fierce/fierce.pl /usr/bin/fierce
+cd /opt/blackbuntu/information-gathering/toutatis/
+chmod +x /opt/blackbuntu/information-gathering/toutatis/setup.py
+python3 /opt/blackbuntu/information-gathering/toutatis/setup.py install
+cd /

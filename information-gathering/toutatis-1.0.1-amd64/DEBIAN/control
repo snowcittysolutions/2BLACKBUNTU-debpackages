@@ -1,5 +1,6 @@
-mkdir -p /opt/blackbuntu/information-gathering/
-cd /opt/blackbuntu/information-gathering/toutatis/
-chmod +x /opt/blackbuntu/information-gathering/toutatis/setup.py
-python3 /opt/blackbuntu/information-gathering/toutatis/setup.py install
-cd /
+Package: toutatis
+Version: 1.0.1
+Priority: optional
+Architecture: amd64
+Maintainer: NeosLab <contact@neoslab.com>
+Description: Toutatis is a tool that allows you to extract information from instagrams accounts such as e-mails, phone numbers and more.

@@ -29,12 +29,14 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/sniffjoke
 	sudo mkdir -p /opt/blackbuntu/sniffing-spoofing/sniffjoke/build
 	cd /opt/blackbuntu/sniffing-spoofing/sniffjoke/build/
 	sudo cmake .. >/dev/null 2>&1
 	sudo make >/dev/null 2>&1
 	sudo make install >/dev/null 2>&1
+	clearscreen
 	sudo sniffjoke -h
 }
 

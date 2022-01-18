@@ -29,11 +29,13 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/truecrack
 	cd /opt/blackbuntu/cracking/truecrack/
 	sudo ./configure --enable-cpu >/dev/null 2>&1
 	sudo make >/dev/null 2>&1
 	sudo make install >/dev/null 2>&1
+	clearscreen
 	truecrack --help
 }
 

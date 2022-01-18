@@ -1,3 +1,0 @@
-mkdir -p /opt/blackbuntu/utilities/
-chmod +x /opt/blackbuntu/utilities/dnsftp/dnsftp.py
-ln -s /opt/blackbuntu/utilities/dnsftp/dnsftp.py /usr/bin/dnsftp

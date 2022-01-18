@@ -1,3 +1,0 @@
-mkdir -p /opt/blackbuntu/wireless/
-chmod +x /opt/blackbuntu/wireless/cowpatty/compile.sh
-ln -s /opt/blackbuntu/wireless/cowpatty/compile.sh /usr/bin/cowpatty

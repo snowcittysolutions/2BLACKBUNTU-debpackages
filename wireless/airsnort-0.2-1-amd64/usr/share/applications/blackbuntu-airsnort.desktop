@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Categories=Wireless;
-Exec=sh -c 'airsnort; $SHELL'
-Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
-Name=Airsnort
-Terminal=true
-Type=Application

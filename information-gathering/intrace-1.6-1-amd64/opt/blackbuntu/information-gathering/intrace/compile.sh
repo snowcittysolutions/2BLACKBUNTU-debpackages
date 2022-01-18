@@ -29,10 +29,12 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/intrace
 	cd /opt/blackbuntu/information-gathering/intrace/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/gathering/intrace/intrace /usr/bin/intrace
+	clearscreen
 	intrace
 }
 

@@ -29,10 +29,12 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/udpflood
 	cd /opt/blackbuntu/stress-testing/udpflood/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/stress-testing/udpflood/udpflood /usr/bin/udpflood
+	clearscreen
 	udpflood --help
 }
 

@@ -29,10 +29,12 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/xspy
 	cd /opt/blackbuntu/sniffing-spoofing/xspy/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/sniffing-spoofing/xspy/xspy /usr/bin/xspy
+	clearscreen
 	xspy --help
 }
 

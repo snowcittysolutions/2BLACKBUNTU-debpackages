@@ -29,10 +29,12 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/enumiax
 	cd /opt/blackbuntu/gathering/enumiax/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/gathering/enumiax/enumiax /usr/bin/enumiax
+	clearscreen
 	enumiax
 }
 

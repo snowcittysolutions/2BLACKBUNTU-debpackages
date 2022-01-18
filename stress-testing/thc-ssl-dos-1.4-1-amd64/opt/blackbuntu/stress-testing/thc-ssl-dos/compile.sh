@@ -29,11 +29,13 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/thc-ssl-dos
 	cd /opt/blackbuntu/stress-testing/thc-ssl-dos/
 	sudo ./configure >/dev/null 2>&1
 	sudo make >/dev/null 2>&1
 	sudo make install >/dev/null 2>&1
+	clearscreen
 	thc-ssl-dos -h
 }
 

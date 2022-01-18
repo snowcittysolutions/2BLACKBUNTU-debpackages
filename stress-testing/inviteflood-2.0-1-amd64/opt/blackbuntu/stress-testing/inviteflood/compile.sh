@@ -29,10 +29,12 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/inviteflood
 	cd /opt/blackbuntu/stress-testing/inviteflood/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/stress-testing/inviteflood/inviteflood /usr/bin/inviteflood
+	clearscreen
 	inviteflood --help
 }
 

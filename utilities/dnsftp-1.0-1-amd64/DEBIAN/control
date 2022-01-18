@@ -1,6 +1,0 @@
-Package: dnsftp
-Version: 1.0.1
-Priority: optional
-Architecture: amd64
-Maintainer: NeosLab <contact@neoslab.com>
-Description: Use only DNS queries to download a file, and then execute it.

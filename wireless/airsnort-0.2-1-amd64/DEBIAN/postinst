@@ -1,3 +1,0 @@
-mkdir -p /opt/blackbuntu/wireless/
-chmod +x /opt/blackbuntu/wireless/airsnort/compile.sh
-ln -s /opt/blackbuntu/wireless/airsnort/compile.sh /usr/bin/airsnort

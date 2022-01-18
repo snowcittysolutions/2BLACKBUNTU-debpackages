@@ -29,10 +29,12 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/iaxflood
 	cd /opt/blackbuntu/stress-testing/iaxflood/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/stress-testing/iaxflood/iaxflood /usr/bin/iaxflood
+	clearscreen
 	iaxflood --help
 }
 

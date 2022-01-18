@@ -29,10 +29,12 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/rtpflood
 	cd /opt/blackbuntu/stress-testing/rtpflood/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/stress-testing/rtpflood/rtpflood /usr/bin/rtpflood
+	clearscreen
 	rtpflood --help
 }
 

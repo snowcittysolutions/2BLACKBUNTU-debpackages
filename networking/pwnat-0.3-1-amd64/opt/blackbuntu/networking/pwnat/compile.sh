@@ -29,10 +29,12 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/pwnat
 	cd /opt/blackbuntu/networking/pwnat/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/networking/pwnat/pwnat /usr/bin/pwnat
+	clearscreen
 	pwnat -h
 }
 

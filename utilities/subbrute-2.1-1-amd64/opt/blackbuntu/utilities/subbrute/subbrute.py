@@ -1,11 +1,11 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 #SubBrute v2.0
 #A (very) fast subdomain spider.
 #
 #Maintained by rook
 #Contributors:
-#JordanMilne, KxCode, rc0r, memoryprint, ppaulojr  
+#JordanMilne, KxCode, rc0r, memoryprint, ppaulojr
 #
 import dnslib
 import re
@@ -131,7 +131,7 @@ class resolver:
                 rhost, record_type, record = n
                 if record_type == "NS":
                     #Return all A records for this NS lookup.
-                    a_lookup = self.query(record.rstrip("."), 'A', use_tcp=False)   
+                    a_lookup = self.query(record.rstrip("."), 'A', use_tcp=False)
                     for a_host, a_type, a_record in a_lookup:
                         ret.append(a_record)
                 #If a nameserver wasn't found try the parent of this sub.
@@ -189,7 +189,7 @@ class verify_nameservers(multiprocessing.Process):
                         trace("Rejected nameserver - wildcard:", server)
                 except Exception as e:
                     #Rejected server :(
-                    trace("Rejected nameserver - unreliable:", server, type(e)) 
+                    trace("Rejected nameserver - unreliable:", server, type(e))
         return added_resolver
 
     def run(self):
@@ -206,7 +206,7 @@ class verify_nameservers(multiprocessing.Process):
         except:
             pass
 
-    #Only add the nameserver to the queue if we can detect wildcards. 
+    #Only add the nameserver to the queue if we can detect wildcards.
     #Returns False on error.
     def find_wildcards(self, host, server):
         wildcards = {}
@@ -237,7 +237,7 @@ class verify_nameservers(multiprocessing.Process):
         while looking_for_wildcards and test_counter >= 0:
             looking_for_wildcards = False
             #Don't get lost, this nameserver could be playing tricks.
-            test_counter -= 1            
+            test_counter -= 1
             try:
                 #Using a 32 char string every time may be too predictable.
                 x = uuid.uuid4().hex[0:random.randint(6, 32)]
@@ -299,7 +299,7 @@ class lookup(multiprocessing.Process):
         self.in_q = in_q
         self.in_q_priority = in_q_priority
         self.out_q = out_q
-        self.resolver_q = resolver_q        
+        self.resolver_q = resolver_q
         self.domain = domain
         #Passing an empty array forces the resolver object to use our nameservers
         self.resolver = resolver([])
@@ -314,8 +314,8 @@ class lookup(multiprocessing.Process):
                 #Queue is empty,  inform the rest.
                 self.resolver_q.put(False)
         except:
-            pass      
-        return ret  
+            pass
+        return ret
 
     def get_ns_blocking(self):
         ret = False
@@ -330,7 +330,7 @@ class lookup(multiprocessing.Process):
     def check(self, host, record_type = "ANY", total_rechecks = 0):
         trace("Checking:", host)
         cname_record = []
-        retries = 0        
+        retries = 0
         if len(self.resolver.nameservers) <= self.required_nameservers:
             #This process needs more nameservers,  lets see if we have one available
             self.resolver.add_ns(self.get_ns())
@@ -421,7 +421,7 @@ class lookup(multiprocessing.Process):
                 (hostname, query_type, timeout_retries) = work
                 response = self.check(hostname, query_type, timeout_retries)
                 sys.stdout.flush()
-                #This variable doesn't need a muetex, because it has a queue. 
+                #This variable doesn't need a muetex, because it has a queue.
                 #A queue ensure nameserver cannot be used before it's wildcard entries are found.
                 reject = False
                 found = []
@@ -644,7 +644,7 @@ def run(target, query_type = "ANY", subdomains = "names.txt", resolve_list = Fal
         try:
             #The output is valid hostnames
             result = out_q.get(True, 10)
-            #we will get an empty exception before this runs. 
+            #we will get an empty exception before this runs.
             if not result:
                 threads_remaining -= 1
             else:
@@ -703,7 +703,7 @@ def run(target, query_type = "ANY", subdomains = "names.txt", resolve_list = Fal
         verify_nameservers_proc.end()
     trace("End")
 
-#exit handler for signals.  So ctrl+c will work. 
+#exit handler for signals.  So ctrl+c will work.
 #The 'multiprocessing' library each process is it's own process which side-steps the GIL
 #If the user wants to exit prematurely,  each process must be killed.
 def killproc(signum = 0, frame = 0, pid = False):
@@ -788,7 +788,7 @@ if __name__ == "__main__":
     parser.add_option("-o", "--output", dest = "output",  default = False, help = "(optional) Output to file (Greppable Format)")
     parser.add_option("-j", "--json", dest="json", default = False, help="(optional) Output to file (JSON Format)")
     parser.add_option("--type", dest = "type", default = False,
-              type = "string", help = "(optional) Print all reponses for an arbitrary DNS record type (CNAME, AAAA, TXT, SOA, MX...)")                  
+              type = "string", help = "(optional) Print all reponses for an arbitrary DNS record type (CNAME, AAAA, TXT, SOA, MX...)")
     parser.add_option("-c", "--process_count", dest = "process_count",
               default = 8, type = "int",
               help = "(optional) Number of lookup theads to run. default = 8")

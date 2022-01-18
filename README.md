@@ -124,7 +124,6 @@ Blackbuntu DEB packages collection.
 
 #### Utilities tools
 
-- [dnsftp](https://github.com/breenmachine/dnsftp)
 - [dracnmap](https://github.com/screetsec/Dracnmap)
 - [ridenum](https://github.com/trustedsec/ridenum)
 - [subbrute](https://github.com/TheRook/subbrute)
@@ -136,7 +135,6 @@ Blackbuntu DEB packages collection.
 
 - [bed](http://ww5.snake-basket.de/)
 - [jsql-injection](https://github.com/ron190/jsql-injection)
-- [oscanner](http://www.cqure.net/wp/tools/database/oscanner/)
 - [sfuzz](http://aconole.brad-x.com/programs/sfuzz.html)
 - [tnscmd10g](http://www.red-database-security.com/)
 - [unix-privesc](https://pentestmonkey.net/tools/audit/unix-privesc-check)
@@ -148,17 +146,12 @@ Blackbuntu DEB packages collection.
 - [cmsmap](https://github.com/Dionach/CMSmap)
 - [dirbuster](https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project)
 - [hurl](https://github.com/fnord0/hURL)
-- [joomscan](https://github.com/OWASP/joomscan)
 
 * * *
 
 #### Wireless tools
 
-- [airsnort](https://sourceforge.net/projects/airsnort/)
 - [blueranger](http://www.hackfromacave.com/projects/blueranger.html)
-- [cowpatty](https://www.willhackforsushi.com/?page_id=50)
-- [crackle](https://github.com/mikeryan/crackle)
-- [eapmd5pass](https://www.willhackforsushi.com/?page_id=67)
 - [fluxion](https://github.com/FluxionNetwork/fluxion)
 - [wifi-honey](https://www.digininja.org/projects/wifi_honey.php7)
 - [wps-breaker](https://github.com/SilentGhostX/HT-WPS-Breaker)

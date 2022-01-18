@@ -29,11 +29,13 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/ddrescue
 	cd /opt/blackbuntu/forensics/ddrescue/
 	sudo make >/dev/null 2>&1
 	sudo mv /opt/blackbuntu/forensics/ddrescue/dd_rescue /opt/blackbuntu/forensics/ddrescue/ddrescue
 	sudo ln -s /opt/blackbuntu/forensics/ddrescue/ddrescue /usr/bin/ddrescue
+	clearscreen
 	ddrescue --help
 }
 

@@ -1,6 +1,0 @@
-Package: airsnort
-Version: 0.2.1
-Priority: optional
-Architecture: amd64
-Maintainer: NeosLab <contact@neoslab.com>
-Description: AirSnort is a wireless LAN (WLAN) tool which cracks encryption keys on 802.11b WEP networks.

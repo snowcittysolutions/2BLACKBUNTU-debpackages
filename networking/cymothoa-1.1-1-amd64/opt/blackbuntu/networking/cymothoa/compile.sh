@@ -29,11 +29,13 @@ function keepalive()
 ## --------------
 function compile()
 {
+	echo "Please wait while compiling the program ..."
 	sudo rm -f /usr/bin/cymothoa
 	cd /opt/blackbuntu/networking/cymothoa/
 	sudo make >/dev/null 2>&1
 	sudo ln -s /opt/blackbuntu/networking/cymothoa/bgrep /usr/bin/bgrep
 	sudo ln -s /opt/blackbuntu/networking/cymothoa/cymothoa /usr/bin/cymothoa
+	clearscreen
 	cymothoa -h
 }
 

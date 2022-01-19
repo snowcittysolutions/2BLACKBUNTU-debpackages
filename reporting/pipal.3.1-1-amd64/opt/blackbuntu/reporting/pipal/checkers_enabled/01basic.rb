@@ -1,1 +1,0 @@
-../checkers_available/basic.rb

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Categories=Information Gathering;
-Exec=sh -c 'sublist3r; $SHELL'
-Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
-Name=Sublist3r
-Terminal=true
-Type=Application

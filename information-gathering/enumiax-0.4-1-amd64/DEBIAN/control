@@ -1,6 +1,0 @@
-Package: enumiax
-Version: 0.4.1
-Priority: optional
-Architecture: amd64
-Maintainer: NeosLab <contact@neoslab.com>
-Description: EnumIAX is an Inter Asterisk Exchange protocol username brute-force enumerator.

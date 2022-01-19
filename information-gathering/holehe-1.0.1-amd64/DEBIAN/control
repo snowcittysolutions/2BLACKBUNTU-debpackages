@@ -1,6 +1,0 @@
-Package: holehe
-Version: 1.0.1
-Priority: optional
-Architecture: amd64
-Maintainer: NeosLab <contact@neoslab.com>
-Description: Holehe checks if an email is attached to an account on sites like twitter, instagram, imgur and more than 120 others.

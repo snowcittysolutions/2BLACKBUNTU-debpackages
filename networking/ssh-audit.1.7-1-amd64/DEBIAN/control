@@ -1,6 +1,0 @@
-Package: ssh-audit
-Version: 1.7.1
-Priority: optional
-Architecture: amd64
-Maintainer: NeosLab <contact@neoslab.com>
-Description:  ssh-audit is a tool for ssh server auditing.

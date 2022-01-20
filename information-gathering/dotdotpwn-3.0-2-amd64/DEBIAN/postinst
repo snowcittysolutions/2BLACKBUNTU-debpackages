@@ -1,3 +1,0 @@
-mkdir -p /opt/blackbuntu/information-gathering/
-chmod +x /opt/blackbuntu/information-gathering/dotdotpwn/dotdotpwn.pl
-ln -s /opt/blackbuntu/information-gathering/dotdotpwn/dotdotpwn.pl /usr/bin/dotdotpwn

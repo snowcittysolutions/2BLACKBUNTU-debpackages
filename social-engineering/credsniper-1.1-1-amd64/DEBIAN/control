@@ -1,6 +1,0 @@
-Package: credsniper
-Version: 1.1.1
-Priority: optional
-Architecture: amd64
-Maintainer: NeosLab <contact@neoslab.com>
-Description: Easily launch a new phishing site fully presented with SSL and capture credentials along with 2FA tokens using CredSniper.

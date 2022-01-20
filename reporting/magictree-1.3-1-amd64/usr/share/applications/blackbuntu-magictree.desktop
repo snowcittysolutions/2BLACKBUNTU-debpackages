@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Categories=Reporting;
-Exec=sh -c 'magictree; $SHELL'
+Exec=/usr/bin/java -jar /opt/blackbuntu/reporting/magictree/magictree.jar
 Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
 Name=Magictree
 Terminal=false

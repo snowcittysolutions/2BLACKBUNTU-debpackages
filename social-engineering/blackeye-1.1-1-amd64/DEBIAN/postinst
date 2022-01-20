@@ -1,3 +1,0 @@
-mkdir -p /opt/blackbuntu/social-engineering/
-chmod +x /opt/blackbuntu/social-engineering/blackeye/blackeye.sh
-ln -s /opt/blackbuntu/social-engineering/blackeye/blackeye.sh /usr/bin/blackeye

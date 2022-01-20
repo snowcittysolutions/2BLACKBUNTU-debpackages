@@ -8,7 +8,6 @@ Blackbuntu DEB packages collection.
 
 - [crowbar](https://github.com/galkan/crowbar)
 - [gpp-decrypt](https://blog.carnal0wnage.com/2012/10/group-policy-preferences-and-getting.html)
-- [hashid](https://github.com/psypanda/hashID)
 - [rainbowcrack](https://project-rainbowcrack.com/)
 - [rsmangler](https://digi.ninja/projects/rsmangler.php)
 - [truecrack](https://github.com/lvaccaro/truecrack)
@@ -25,7 +24,6 @@ Blackbuntu DEB packages collection.
 - [routersploit](https://github.com/threat9/routersploit)
 - [sharpmeter](https://github.com/vvalien/SharpMeter/)
 - [shellnoob](https://github.com/reyammer/shellnoob)
-- [unicorn](https://github.com/trustedsec/unicorn)
 
 * * *
 
@@ -46,31 +44,26 @@ Blackbuntu DEB packages collection.
 
 #### Information Gathering tools
 
-- [dotdotpwn](https://github.com/wireghoul/dotdotpwn)
 - [enum4linux](https://www.portcullis-security.com/)
-- [enumiax](https://enumiax.sourceforge.net/)
 - [fierce](https://github.com/mschwager/fierce)
 - [gnmap](https://github.com/themightyshiv/gnmap)
-- [holehe](https://github.com/megadose/holehe)
-- [ignorant](https://github.com/megadose/ignorant)
-- [intrace](https://github.com/robertswiecki/intrace)
 - [lbd](http://ge.mine.nu/code/)
 - [linenum](https://github.com/rebootuser/LinEnum)
 - [phoneinfoga](https://github.com/sundowndev/phoneinfoga)
 - [smtp-user-enum](https://pentestmonkey.net/tools/user-enumeration/smtp-user-enum)
-- [sublist3r](https://github.com/aboul3la/Sublist3r)
-- [toutatis](https://github.com/megadose/toutatis)
 
 * * *
 
 #### Networking tools
 
+- [cryptcat](https://packages.ubuntu.com/focal/cryptcat)
 - [cymothoa](http://cymothoa.sourceforge.net/)
+- [dns2tcp](https://packages.ubuntu.com/focal/dns2tcp)
+- [httptunnel](https://packages.ubuntu.com/focal/httptunnel)
 - [nishang](https://github.com/samratashok/nishang)
 - [powersploit](https://github.com/PowerShellMafia/PowerSploit)
 - [pwnat](http://samy.pl/pwnat/)
 - [reverser](https://github.com/Hood3dRob1n/Reverser)
-- [ssh-audit](https://github.com/arthepsy/ssh-audit)
 - [webshells](https://www.kali.org/tools/webshells/)
 
 * * *
@@ -79,8 +72,6 @@ Blackbuntu DEB packages collection.
 
 - [cherrytree](https://www.giuspen.com/cherrytree/)
 - [magictree](https://www.gremwell.com/what_is_magictree)
-- [metagoofil](https://github.com/opsdisk/metagoofil)
-- [pipal](https://github.com/digininja/pipal)
 
 * * *
 
@@ -96,19 +87,9 @@ Blackbuntu DEB packages collection.
 - [mitmdump](https://mitmproxy.org/)
 - [mitmproxy](https://mitmproxy.org/)
 - [mitmweb](https://mitmproxy.org/)
-- [ohrwurm](http://mazzoo.de/blog/2006/08/25#ohrwurm)
 - [sniffjoke](https://github.com/vecna/sniffjoke)
 - [webscarab](http://dawes.za.net/rogan/webscarab/)
-- [xspy](https://www.kali.org/tools/xspy/)
 - [zaproxy](https://www.zaproxy.org/)
-
-* * *
-
-#### Social Engineering tools
-
-- [blackeye](https://github.com/thelinuxchoice/blackeye)
-- [credsniper](https://github.com/ustayready/CredSniper)
-- [gophish](https://github.com/gophish/gophish)
 
 * * *
 

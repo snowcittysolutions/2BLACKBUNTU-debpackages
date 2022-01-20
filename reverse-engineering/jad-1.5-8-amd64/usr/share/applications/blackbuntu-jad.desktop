@@ -4,5 +4,5 @@ Categories=Reverse Engineering;
 Exec=sh -c 'jad; $SHELL'
 Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
 Name=JAD
-Terminal=false
+Terminal=true
 Type=Application

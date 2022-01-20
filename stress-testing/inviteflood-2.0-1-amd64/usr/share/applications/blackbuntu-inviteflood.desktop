@@ -3,6 +3,6 @@ Version=1.0
 Categories=Stress Testing;
 Exec=sh -c 'inviteflood --help; $SHELL'
 Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
-Name=Udpflood
+Name=Inviteflood
 Terminal=true
 Type=Application

@@ -3,6 +3,6 @@ Version=1.0
 Categories=Information Gathering;
 Exec=sh -c 'lbd; $SHELL'
 Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
-Name=Load Balancing Checker
+Name=LBD
 Terminal=true
 Type=Application

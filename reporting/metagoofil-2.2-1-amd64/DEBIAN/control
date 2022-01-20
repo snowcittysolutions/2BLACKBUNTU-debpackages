@@ -1,6 +1,0 @@
-Package: metagoofil
-Version: 2.2.1
-Priority: optional
-Architecture: amd64
-Maintainer: NeosLab <contact@neoslab.com>
-Description: Metagoofil searches Google for specific types of files being publicly hosted on a web site and optionally downloads them to your local box.

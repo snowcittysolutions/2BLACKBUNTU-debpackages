@@ -1,2 +1,0 @@
-mkdir -p /opt/blackbuntu/reporting/
-chmod +x /opt/blackbuntu/reporting/magictree/magictree.jar

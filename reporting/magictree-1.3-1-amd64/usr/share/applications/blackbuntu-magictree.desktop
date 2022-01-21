@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Categories=Reporting;
-Exec=/usr/bin/java -jar /opt/blackbuntu/reporting/magictree/magictree.jar
-Icon=/usr/share/icons/blackbuntu/blackbuntu-default.png
-Name=Magictree
-Terminal=false
-Type=Application

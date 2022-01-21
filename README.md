@@ -68,13 +68,6 @@ Blackbuntu DEB packages collection.
 
 * * *
 
-#### Reporting tools
-
-- [cherrytree](https://www.giuspen.com/cherrytree/)
-- [magictree](https://www.gremwell.com/what_is_magictree)
-
-* * *
-
 #### Reverse Engineering tools
 
 - [javasnoop](https://code.google.com/archive/p/javasnoop/)

@@ -1,6 +1,0 @@
-Package: inviteflood
-Version: 2.0.1
-Priority: optional
-Architecture: amd64
-Maintainer: NeosLab <contact@neoslab.com>
-Description: A tool to perform SIP/SDP INVITE message flooding over UDP/IP.

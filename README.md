@@ -89,7 +89,6 @@ Blackbuntu DEB packages collection.
 #### Stress Testing tools
 
 - [iaxflood](http://www.hackingexposedvoip.com/sec_tools.html)
-- [inviteflood](http://www.hackingexposedvoip.com/sec_tools.html)
 - [rtpflood](http://www.hackingexposedvoip.com/sec_tools.html)
 - [thc-ssl-dos](https://www.thc.org/thc-ssl-dos/)
 - [udpflood](http://www.hackingexposedvoip.com/sec_tools.html)

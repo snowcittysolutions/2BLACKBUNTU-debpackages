@@ -1,3 +1,0 @@
-mkdir -p /opt/blackbuntu/stress-testing/
-chmod +x /opt/blackbuntu/stress-testing/inviteflood/compile.sh
-ln -s /opt/blackbuntu/stress-testing/inviteflood/compile.sh /usr/bin/inviteflood

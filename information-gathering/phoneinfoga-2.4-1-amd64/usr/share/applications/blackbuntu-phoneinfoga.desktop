@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Categories=Information Gathering;
-Exec=sh -c 'phoneinfoga --help; $SHELL'
-Icon=/usr/share/icons/blackbuntu/blackbuntu-phoneinfoga.png
-Name=PhoneInfoga
-Terminal=true
-Type=Application
